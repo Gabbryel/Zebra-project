@@ -1,11 +1,13 @@
 .navbar {
   position: absolute;
   top: 0;
-  .nav-burger--menu {
+  #nav-burger--menu {
     position: absolute;
     top: 3vh;
     left: 97vw;
     font-size: 2rem;
     color: #383637;
-}
+    cursor: pointer;
+    z-index: 2;
+  }
 }

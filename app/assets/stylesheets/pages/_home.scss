@@ -3,24 +3,24 @@ html, body {
 }
 
 body {
-  background-color: #5D595A;
+    background-color: #5D595A;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-  padding: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 #logo {
-  width: calc(5rem + 5vh);
+    width: calc(5rem + 5vh);
 }
 
 
@@ -29,7 +29,6 @@ main-container {
     font-family: 'Orbitron';
     max-width: 1500px;
     height: 100vh;
-  
   h1, h4 {
     position: relative;
     top: 40vh;
