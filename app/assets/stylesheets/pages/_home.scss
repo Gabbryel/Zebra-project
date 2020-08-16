@@ -1,1 +1,72 @@
-// Specific CSS for your home-page
+html, body {
+  font-size: calc( 5px + 1vw );
+}
+
+body {
+  background-color: #5D595A;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: calc(5rem + 5vh);
+}
+
+main-container {
+  max-width: 1500px;
+  height: 100vh;
+  position: relative;
+  h1, h4 {
+    position: relative;
+    top: 40vh;
+    font-size: 5rem;
+    color: #383637;
+    text-align: center;
+  }
+  h4 {
+    margin-top: -2vh;
+    font-size: 3rem;
+    letter-spacing: .6rem;
+  }
+  #burger-menu {
+    color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+  menu {
+    position: relative;
+    top: 40vh;
+    display: none;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 1px;
+    ul {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      li {
+        display: inline-block;
+        width: 50vw;
+        text-align: center;
+        font-size: 2rem;
+        cursor: pointer;
+         &:hover {
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, .6);
+        }
+      }
+      li:last-child{
+        margin-top: 10px;
+        color: rgba(255, 255, 255, 0.1);
+        font-size: 1rem;
+      }
+    }
+  }
+}
