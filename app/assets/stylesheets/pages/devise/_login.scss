@@ -1,0 +1,29 @@
+.container-login {
+    position: relative;
+    width: 80vw;
+    max-width: 600px;
+    top: 20vh;
+    margin: 0 auto;
+    padding: 5vh 5vw;
+    color: white;
+    font-family: 'Inconsolata';
+    h2 {
+        font-family: inherit;
+        font-size: clamp(16px, 4rem, 48px);
+    }
+    .form-inputs {
+        font-size: clamp(12px, 2rem, 24px);
+        .form-check-input {
+            margin-top: .7rem;
+        }
+        .form-check-label {
+            margin-left: 1rem;
+        }
+    }
+    .form-actions {
+        .btn {
+            background-color: white !important;
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -6,6 +6,15 @@ body {
     background-color: #5D595A;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
