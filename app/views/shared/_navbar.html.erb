@@ -1,3 +1,19 @@
 <div class="navbar">
-    <p id="nav-burger--menu"><i class="fas fa-ellipsis-v" ></i></p>
+    <div class="navbar-menu">
+        <ul class='navbar-menu__list'>
+            <li>
+                <%= link_to root_path do %>
+                    <i class="fas fa-laptop-house"></i>
+                <% end %>
+            </li>
+            <% if current_user %>
+                <li>
+                    <%= link_to destroy_user_session_path, method: :delete do %>
+                        <i class="fas fa-sign-out-alt"></i>
+                    <% end %>
+                </li>
+            <% end %>
+        </ul>
+        <p id="nav-burger--menu"><i class="fas fa-ellipsis-v" ></i></p>
+    </div>
 </div>

@@ -15,10 +15,5 @@
           <li><p id='close-menu'>x</p></li>
         </ul>
     </menu>
-    <% if current_user %>
-      <%= link_to destroy_user_session_path, method: :delete do %>
-        <i class="fas fa-sign-out-alt"></i>
-      <% end %>
-    <% end %>
     </main-container>
   </container>

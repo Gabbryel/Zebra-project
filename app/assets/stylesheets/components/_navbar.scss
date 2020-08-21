@@ -1,13 +1,25 @@
 .navbar {
   position: absolute;
+  display: flex;;
   top: 0;
-  #nav-burger--menu {
-    position: absolute;
-    top: 3vh;
-    left: 97vw;
-    font-size: 2rem;
-    color: #383637;
-    cursor: pointer;
+  color: $barossa;
+  width: 100vw;
+  .navbar-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 3rem;
     z-index: 2;
+    .navbar-menu__list {
+      display: inherit;
+      margin-right: 20px;
+      li {
+        margin-right: 10px;
+      }
+    }
+  }
+  #nav-burger--menu {
+    position: relative;
+    cursor: pointer;
   }
 }
