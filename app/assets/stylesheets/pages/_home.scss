@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background-color: #5D595A;
+    background-color: $don-juan;
 }
 
 a {
@@ -42,7 +42,7 @@ main-container {
     position: relative;
     top: 40vh;
     font-size: 5rem;
-    color: #383637;
+    color: $barossa;
     text-align: center;
   }
   h1 {
