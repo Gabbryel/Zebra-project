@@ -37,7 +37,6 @@ main-container {
     position: relative;
     font-family: 'Orbitron';
     max-width: 1500px;
-    height: 100vh;
   h1, h4 {
     position: relative;
     top: 40vh;
@@ -83,5 +82,12 @@ main-container {
         font-size: 1.5rem;
       }
     }
+  }
+  .fa-sign-out-alt {
+    position: absolute;
+    top: 95vh;
+    left: 96vw;
+    font-size: 2rem;
+    color: $barossa;
   }
 }
